@@ -1,0 +1,16 @@
+{
+  "name": "buffered-array",
+  "version": "0.1.0",
+  "author": "Hugo Marcelino <hugo.m.marcelino@gmail.com>",
+  "description": " A simple buffer that will call a callback on a threshold",
+  "contributers": [
+    {
+      "name": "Hugo Marcelino",
+      "email": "hugo.m.marcelino@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "mocha": "~1.15.1",
+    "should": "~2.1.1"
+  }
+}
