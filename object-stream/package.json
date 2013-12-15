@@ -1,0 +1,16 @@
+{
+	"name":"object-stream-pipes",
+	"version":"0.1.0",
+	"author":"Hugo Marcelino <hugo.m.marcelino@gmail.com>",
+	"description":" A simple way to create and use duplex streams",
+	"contributers":[{
+		"name":"Hugo Marcelino",
+		"email":"hugo.m.marcelino@gmail.com"				
+		}
+	],
+	"dependencies": {
+		"mocha": "~1.15.1",
+		"should": "~2.1.1"
+	},
+	"engine": "node >= 0.10.12"
+}
