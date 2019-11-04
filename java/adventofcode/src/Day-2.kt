@@ -1,5 +1,3 @@
-package com.huma.adventofcode
-
 fun main(args: Array<String>) {
 
     val spreadsheet = "62\t1649\t1731\t76\t51\t1295\t349\t719\t52\t1984\t2015\t2171\t981\t1809\t181\t1715\n" +

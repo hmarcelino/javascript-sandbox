@@ -1,5 +1,3 @@
-package com.huma.adventofcode
-
 fun main(args: Array<String>) {
 
     val input = "oaoe rxeq vssdqtu xrk cjv yaoqp loo\n" +
@@ -533,10 +531,9 @@ fun main(args: Array<String>) {
      */
 
     val validPassphrases = input.split("\n")
-            .count { line -> val words = line.split(" "); words.size == words.distinct().size }
+        .count { line -> val words = line.split(" "); words.size == words.distinct().size }
 
     println("Policy 1 - Valid passphrases are ${validPassphrases}")
-
 
 
     /**
@@ -558,7 +555,10 @@ fun main(args: Array<String>) {
      */
 
     val validPassphrasesPolicy2 = input.split("\n")
-            .count { line -> val words = line.split(" "); words.size == words.map { w -> String(chars = w.toCharArray().sortedArray()) }.distinct().size }
+        .count { line ->
+            val words =
+                line.split(" "); words.size == words.map { w -> String(chars = w.toCharArray().sortedArray()) }.distinct().size
+        }
 
     println("Policy 2 - Valid passphrases are ${validPassphrasesPolicy2}")
 }

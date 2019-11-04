@@ -1,5 +1,3 @@
-package com.huma.adventofcode
-
 import kotlin.test.assertEquals
 
 fun calculateSumWithCustomStep(text: String, step: Int): Int {

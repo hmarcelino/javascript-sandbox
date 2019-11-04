@@ -1,5 +1,3 @@
-package com.huma.adventofcode
-
 import kotlin.test.assertEquals
 
 fun getCoordinates(number: Int): Pair<Int, Int> {

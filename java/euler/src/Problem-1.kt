@@ -1,5 +1,3 @@
-package com.huma.euler
-
 fun main(args: Array<String>) {
 
     var total = 0
